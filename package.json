@@ -1,0 +1,28 @@
+{
+  "name": "request-header-parser",
+  "version": "1.0.0",
+  "description": "Parse browser details from request",
+  "main": "request-header-parser.js",
+  "engines": {
+    "node": "4.6.1",
+    "npm": "3.10.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node request-header-parser.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OferLevi85/Request-Header-Parser.git"
+  },
+  "author": "OferLevi85",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OferLevi85/Request-Header-Parser/issues"
+  },
+  "homepage": "https://github.com/OferLevi85/Request-Header-Parser#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "useragent": "^2.1.9"
+  }
+}
